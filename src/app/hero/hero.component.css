@@ -1,0 +1,11 @@
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.hero img{
+    width: 400px;
+    height: 300px;
+}
+.hero h1{
+    width: 300px;
+}

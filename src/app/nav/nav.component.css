@@ -4,6 +4,8 @@
     align-items: center;
     padding: 0 10px;
     gap: 100px;
+    position: sticky;
+    top: 0;
 
     .site-name{
         box-sizing: border-box;
