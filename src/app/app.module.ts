@@ -8,6 +8,8 @@ import { NavComponent } from './nav/nav.component';
 import { HeroComponent } from './hero/hero.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductsComponent } from './products/products.component';
+import { SearchComponent } from './search/search.component';
+import { FormsModule} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,11 +17,13 @@ import { ProductsComponent } from './products/products.component';
     NavComponent,
     HeroComponent,
     FooterComponent,
-    ProductsComponent
+    ProductsComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
